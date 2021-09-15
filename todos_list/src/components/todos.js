@@ -4,7 +4,7 @@ import { TodoItem } from '../components/todoItem'
 export const Todos = (props) => {
     return (
         <div className="container">
-            <h2 className="text-center my-3">MY ALL TODOS</h2>
+            <h2 className="text-center my-3 py-3">MY ALL TODOS</h2><hr />
             { 
                 props.allTodos.length === 0? <h5 className="text-center">no todos to display</h5>:
                 props.allTodos.map((todo)=>{

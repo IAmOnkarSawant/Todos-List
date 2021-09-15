@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     const myStyle = {
         "padding" : "10px",
-        "margin-top" : "20vh"
+        "marginTop" : "60vh"
     }
     return (
         <div className = "bg-dark text-light " style = {myStyle}>
